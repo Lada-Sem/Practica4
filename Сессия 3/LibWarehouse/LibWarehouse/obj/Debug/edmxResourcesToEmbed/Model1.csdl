@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Инвентаризация">
+    <Key>
+      <PropertyRef Name="ID_Инвентаризации" />
+    </Key>
+    <Property Name="ID_Инвентаризации" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Дата_Проведения" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Ответственный" Type="Int32" Nullable="false" />
+    <Property Name="Результаты" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Пользователь" Relationship="Self.FK_Инвентаризация_Пользователь" FromRole="Инвентаризация" ToRole="Пользователь" />
+    <NavigationProperty Name="Строки_Инвентаризации" Relationship="Self.FK_Строки_Инвентаризации_Инвентаризация" FromRole="Инвентаризация" ToRole="Строки_Инвентаризации" />
+  </EntityType>
+  <EntityType Name="Клиенты">
+    <Key>
+      <PropertyRef Name="ID_Клиента" />
+    </Key>
+    <Property Name="ID_Клиента" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Название_Клиента" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Контактные_данные" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Адрес" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Расходные_Накладные" Relationship="Self.FK_Расходные_Накладные_Клиенты" FromRole="Клиенты" ToRole="Расходные_Накладные" />
+  </EntityType>
+  <EntityType Name="Остатки_На_Складе">
+    <Key>
+      <PropertyRef Name="ID_Остатка" />
+    </Key>
+    <Property Name="ID_Остатка" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_Товара" Type="Int32" Nullable="false" />
+    <Property Name="ID_Склада" Type="Int32" Nullable="false" />
+    <Property Name="Текущее_Количество" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Склады" Relationship="Self.FK_Остатки_На_Складе_Склады" FromRole="Остатки_На_Складе" ToRole="Склады" />
+    <NavigationProperty Name="Товары" Relationship="Self.FK_Остатки_На_Складе_Товары" FromRole="Остатки_На_Складе" ToRole="Товары" />
+  </EntityType>
+  <EntityType Name="Пользователь">
+    <Key>
+      <PropertyRef Name="Номер" />
+    </Key>
+    <Property Name="Номер" Type="Int32" Nullable="false" />
+    <Property Name="Фамилия" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Имя" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Отчество" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Логин" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Пароль" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Инвентаризация" Relationship="Self.FK_Инвентаризация_Пользователь" FromRole="Пользователь" ToRole="Инвентаризация" />
+  </EntityType>
+  <EntityType Name="Поставщики">
+    <Key>
+      <PropertyRef Name="ID_Поставщика" />
+    </Key>
+    <Property Name="ID_Поставщика" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Название_Поставщика" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ИНН_КПП" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Контактные_данные" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Адрес" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Приходные_Накладные" Relationship="Self.FK_Приходные_Накладные_Поставщики" FromRole="Поставщики" ToRole="Приходные_Накладные" />
+  </EntityType>
+  <EntityType Name="Приходные_Накладные">
+    <Key>
+      <PropertyRef Name="ID_Приходной_Накладной" />
+    </Key>
+    <Property Name="ID_Приходной_Накладной" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Номер_Накладной" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Дата_Поступления" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="ID_Поставщика" Type="Int32" Nullable="false" />
+    <Property Name="Общая_Сумма" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <NavigationProperty Name="Поставщики" Relationship="Self.FK_Приходные_Накладные_Поставщики" FromRole="Приходные_Накладные" ToRole="Поставщики" />
+    <NavigationProperty Name="Строки_Приходных_Накладных" Relationship="Self.FK_Строки_Приходных_Накладных_Приходные_Накладные" FromRole="Приходные_Накладные" ToRole="Строки_Приходных_Накладных" />
+  </EntityType>
+  <EntityType Name="Расходные_Накладные">
+    <Key>
+      <PropertyRef Name="ID_Расходной_Накладной" />
+    </Key>
+    <Property Name="ID_Расходной_Накладной" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Номер_Накладной" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Дата_Отгрузки" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="ID_Клиента" Type="Int32" Nullable="false" />
+    <Property Name="Общая_Сумма" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <NavigationProperty Name="Клиенты" Relationship="Self.FK_Расходные_Накладные_Клиенты" FromRole="Расходные_Накладные" ToRole="Клиенты" />
+    <NavigationProperty Name="Строки_Расходных_Накладных" Relationship="Self.FK_Строки_Расходных_Накладных_Расходные_Накладные" FromRole="Расходные_Накладные" ToRole="Строки_Расходных_Накладных" />
+  </EntityType>
+  <EntityType Name="Склады">
+    <Key>
+      <PropertyRef Name="ID_Склада" />
+    </Key>
+    <Property Name="ID_Склада" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Название_Склада" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Адрес" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Тип_Склада" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Зона_Хранения" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Остатки_На_Складе" Relationship="Self.FK_Остатки_На_Складе_Склады" FromRole="Склады" ToRole="Остатки_На_Складе" />
+  </EntityType>
+  <EntityType Name="Строки_Инвентаризации">
+    <Key>
+      <PropertyRef Name="ID_Строки_Инвентаризации" />
+    </Key>
+    <Property Name="ID_Строки_Инвентаризации" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_Инвентаризации" Type="Int32" Nullable="false" />
+    <Property Name="ID_Товара" Type="Int32" Nullable="false" />
+    <Property Name="Фактическое_Количество" Type="Int32" Nullable="false" />
+    <Property Name="Учетное_Количество" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Инвентаризация" Relationship="Self.FK_Строки_Инвентаризации_Инвентаризация" FromRole="Строки_Инвентаризации" ToRole="Инвентаризация" />
+    <NavigationProperty Name="Товары" Relationship="Self.FK_Строки_Инвентаризации_Товары" FromRole="Строки_Инвентаризации" ToRole="Товары" />
+  </EntityType>
+  <EntityType Name="Строки_Приходных_Накладных">
+    <Key>
+      <PropertyRef Name="ID_Строки_Приходной_Накладной" />
+    </Key>
+    <Property Name="ID_Строки_Приходной_Накладной" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_Приходной_Накладной" Type="Int32" Nullable="false" />
+    <Property Name="ID_Товара" Type="Int32" Nullable="false" />
+    <Property Name="Количество" Type="Int32" Nullable="false" />
+    <Property Name="Цена" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <NavigationProperty Name="Приходные_Накладные" Relationship="Self.FK_Строки_Приходных_Накладных_Приходные_Накладные" FromRole="Строки_Приходных_Накладных" ToRole="Приходные_Накладные" />
+    <NavigationProperty Name="Товары" Relationship="Self.FK_Строки_Приходных_Накладных_Товары" FromRole="Строки_Приходных_Накладных" ToRole="Товары" />
+  </EntityType>
+  <EntityType Name="Строки_Расходных_Накладных">
+    <Key>
+      <PropertyRef Name="ID_Строки_Расходной_Накладной" />
+    </Key>
+    <Property Name="ID_Строки_Расходной_Накладной" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_Расходной_Накладной" Type="Int32" Nullable="false" />
+    <Property Name="ID_Товара" Type="Int32" Nullable="false" />
+    <Property Name="Количество" Type="Int32" Nullable="false" />
+    <Property Name="Цена" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <NavigationProperty Name="Расходные_Накладные" Relationship="Self.FK_Строки_Расходных_Накладных_Расходные_Накладные" FromRole="Строки_Расходных_Накладных" ToRole="Расходные_Накладные" />
+    <NavigationProperty Name="Товары" Relationship="Self.FK_Строки_Расходных_Накладных_Товары" FromRole="Строки_Расходных_Накладных" ToRole="Товары" />
+  </EntityType>
+  <EntityType Name="Товары">
+    <Key>
+      <PropertyRef Name="ID_Товара" />
+    </Key>
+    <Property Name="ID_Товара" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Название" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Артикул" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Штрихкод" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Категория" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Единица_измерения" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Цена_за_единицу" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="Серийный_номер" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Минимальный_остаток" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Остатки_На_Складе" Relationship="Self.FK_Остатки_На_Складе_Товары" FromRole="Товары" ToRole="Остатки_На_Складе" />
+    <NavigationProperty Name="Строки_Инвентаризации" Relationship="Self.FK_Строки_Инвентаризации_Товары" FromRole="Товары" ToRole="Строки_Инвентаризации" />
+    <NavigationProperty Name="Строки_Приходных_Накладных" Relationship="Self.FK_Строки_Приходных_Накладных_Товары" FromRole="Товары" ToRole="Строки_Приходных_Накладных" />
+    <NavigationProperty Name="Строки_Расходных_Накладных" Relationship="Self.FK_Строки_Расходных_Накладных_Товары" FromRole="Товары" ToRole="Строки_Расходных_Накладных" />
+  </EntityType>
+  <Association Name="FK_Инвентаризация_Пользователь">
+    <End Role="Пользователь" Type="Self.Пользователь" Multiplicity="1" />
+    <End Role="Инвентаризация" Type="Self.Инвентаризация" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Пользователь">
+        <PropertyRef Name="Номер" />
+      </Principal>
+      <Dependent Role="Инвентаризация">
+        <PropertyRef Name="Ответственный" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Строки_Инвентаризации_Инвентаризация">
+    <End Role="Инвентаризация" Type="Self.Инвентаризация" Multiplicity="1" />
+    <End Role="Строки_Инвентаризации" Type="Self.Строки_Инвентаризации" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Инвентаризация">
+        <PropertyRef Name="ID_Инвентаризации" />
+      </Principal>
+      <Dependent Role="Строки_Инвентаризации">
+        <PropertyRef Name="ID_Инвентаризации" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Расходные_Накладные_Клиенты">
+    <End Role="Клиенты" Type="Self.Клиенты" Multiplicity="1" />
+    <End Role="Расходные_Накладные" Type="Self.Расходные_Накладные" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Клиенты">
+        <PropertyRef Name="ID_Клиента" />
+      </Principal>
+      <Dependent Role="Расходные_Накладные">
+        <PropertyRef Name="ID_Клиента" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Остатки_На_Складе_Склады">
+    <End Role="Склады" Type="Self.Склады" Multiplicity="1" />
+    <End Role="Остатки_На_Складе" Type="Self.Остатки_На_Складе" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Склады">
+        <PropertyRef Name="ID_Склада" />
+      </Principal>
+      <Dependent Role="Остатки_На_Складе">
+        <PropertyRef Name="ID_Склада" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Остатки_На_Складе_Товары">
+    <End Role="Товары" Type="Self.Товары" Multiplicity="1" />
+    <End Role="Остатки_На_Складе" Type="Self.Остатки_На_Складе" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Товары">
+        <PropertyRef Name="ID_Товара" />
+      </Principal>
+      <Dependent Role="Остатки_На_Складе">
+        <PropertyRef Name="ID_Товара" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Приходные_Накладные_Поставщики">
+    <End Role="Поставщики" Type="Self.Поставщики" Multiplicity="1" />
+    <End Role="Приходные_Накладные" Type="Self.Приходные_Накладные" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Поставщики">
+        <PropertyRef Name="ID_Поставщика" />
+      </Principal>
+      <Dependent Role="Приходные_Накладные">
+        <PropertyRef Name="ID_Поставщика" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Строки_Приходных_Накладных_Приходные_Накладные">
+    <End Role="Приходные_Накладные" Type="Self.Приходные_Накладные" Multiplicity="1" />
+    <End Role="Строки_Приходных_Накладных" Type="Self.Строки_Приходных_Накладных" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Приходные_Накладные">
+        <PropertyRef Name="ID_Приходной_Накладной" />
+      </Principal>
+      <Dependent Role="Строки_Приходных_Накладных">
+        <PropertyRef Name="ID_Приходной_Накладной" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Строки_Расходных_Накладных_Расходные_Накладные">
+    <End Role="Расходные_Накладные" Type="Self.Расходные_Накладные" Multiplicity="1" />
+    <End Role="Строки_Расходных_Накладных" Type="Self.Строки_Расходных_Накладных" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Расходные_Накладные">
+        <PropertyRef Name="ID_Расходной_Накладной" />
+      </Principal>
+      <Dependent Role="Строки_Расходных_Накладных">
+        <PropertyRef Name="ID_Расходной_Накладной" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Строки_Инвентаризации_Товары">
+    <End Role="Товары" Type="Self.Товары" Multiplicity="1" />
+    <End Role="Строки_Инвентаризации" Type="Self.Строки_Инвентаризации" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Товары">
+        <PropertyRef Name="ID_Товара" />
+      </Principal>
+      <Dependent Role="Строки_Инвентаризации">
+        <PropertyRef Name="ID_Товара" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Строки_Приходных_Накладных_Товары">
+    <End Role="Товары" Type="Self.Товары" Multiplicity="1" />
+    <End Role="Строки_Приходных_Накладных" Type="Self.Строки_Приходных_Накладных" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Товары">
+        <PropertyRef Name="ID_Товара" />
+      </Principal>
+      <Dependent Role="Строки_Приходных_Накладных">
+        <PropertyRef Name="ID_Товара" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Строки_Расходных_Накладных_Товары">
+    <End Role="Товары" Type="Self.Товары" Multiplicity="1" />
+    <End Role="Строки_Расходных_Накладных" Type="Self.Строки_Расходных_Накладных" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Товары">
+        <PropertyRef Name="ID_Товара" />
+      </Principal>
+      <Dependent Role="Строки_Расходных_Накладных">
+        <PropertyRef Name="ID_Товара" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="СкладскойУчетEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Инвентаризация" EntityType="Self.Инвентаризация" />
+    <EntitySet Name="Клиенты" EntityType="Self.Клиенты" />
+    <EntitySet Name="Остатки_На_Складе" EntityType="Self.Остатки_На_Складе" />
+    <EntitySet Name="Пользователь" EntityType="Self.Пользователь" />
+    <EntitySet Name="Поставщики" EntityType="Self.Поставщики" />
+    <EntitySet Name="Приходные_Накладные" EntityType="Self.Приходные_Накладные" />
+    <EntitySet Name="Расходные_Накладные" EntityType="Self.Расходные_Накладные" />
+    <EntitySet Name="Склады" EntityType="Self.Склады" />
+    <EntitySet Name="Строки_Инвентаризации" EntityType="Self.Строки_Инвентаризации" />
+    <EntitySet Name="Строки_Приходных_Накладных" EntityType="Self.Строки_Приходных_Накладных" />
+    <EntitySet Name="Строки_Расходных_Накладных" EntityType="Self.Строки_Расходных_Накладных" />
+    <EntitySet Name="Товары" EntityType="Self.Товары" />
+    <AssociationSet Name="FK_Инвентаризация_Пользователь" Association="Self.FK_Инвентаризация_Пользователь">
+      <End Role="Пользователь" EntitySet="Пользователь" />
+      <End Role="Инвентаризация" EntitySet="Инвентаризация" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Строки_Инвентаризации_Инвентаризация" Association="Self.FK_Строки_Инвентаризации_Инвентаризация">
+      <End Role="Инвентаризация" EntitySet="Инвентаризация" />
+      <End Role="Строки_Инвентаризации" EntitySet="Строки_Инвентаризации" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Расходные_Накладные_Клиенты" Association="Self.FK_Расходные_Накладные_Клиенты">
+      <End Role="Клиенты" EntitySet="Клиенты" />
+      <End Role="Расходные_Накладные" EntitySet="Расходные_Накладные" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Остатки_На_Складе_Склады" Association="Self.FK_Остатки_На_Складе_Склады">
+      <End Role="Склады" EntitySet="Склады" />
+      <End Role="Остатки_На_Складе" EntitySet="Остатки_На_Складе" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Остатки_На_Складе_Товары" Association="Self.FK_Остатки_На_Складе_Товары">
+      <End Role="Товары" EntitySet="Товары" />
+      <End Role="Остатки_На_Складе" EntitySet="Остатки_На_Складе" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Приходные_Накладные_Поставщики" Association="Self.FK_Приходные_Накладные_Поставщики">
+      <End Role="Поставщики" EntitySet="Поставщики" />
+      <End Role="Приходные_Накладные" EntitySet="Приходные_Накладные" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Строки_Приходных_Накладных_Приходные_Накладные" Association="Self.FK_Строки_Приходных_Накладных_Приходные_Накладные">
+      <End Role="Приходные_Накладные" EntitySet="Приходные_Накладные" />
+      <End Role="Строки_Приходных_Накладных" EntitySet="Строки_Приходных_Накладных" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Строки_Расходных_Накладных_Расходные_Накладные" Association="Self.FK_Строки_Расходных_Накладных_Расходные_Накладные">
+      <End Role="Расходные_Накладные" EntitySet="Расходные_Накладные" />
+      <End Role="Строки_Расходных_Накладных" EntitySet="Строки_Расходных_Накладных" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Строки_Инвентаризации_Товары" Association="Self.FK_Строки_Инвентаризации_Товары">
+      <End Role="Товары" EntitySet="Товары" />
+      <End Role="Строки_Инвентаризации" EntitySet="Строки_Инвентаризации" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Строки_Приходных_Накладных_Товары" Association="Self.FK_Строки_Приходных_Накладных_Товары">
+      <End Role="Товары" EntitySet="Товары" />
+      <End Role="Строки_Приходных_Накладных" EntitySet="Строки_Приходных_Накладных" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Строки_Расходных_Накладных_Товары" Association="Self.FK_Строки_Расходных_Накладных_Товары">
+      <End Role="Товары" EntitySet="Товары" />
+      <End Role="Строки_Расходных_Накладных" EntitySet="Строки_Расходных_Накладных" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

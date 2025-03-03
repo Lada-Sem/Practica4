@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a262069599d9456b91401ad4533e5e84" Name="Diagram1">
+        <EntityTypeShape EntityType="Model.Инвентаризация" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Клиенты" Width="1.5" PointX="1.5" PointY="18.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Остатки_На_Складе" Width="1.5" PointX="3" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Пользователь" Width="1.5" PointX="1.5" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Поставщики" Width="1.5" PointX="1.5" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Приходные_Накладные" Width="1.5" PointX="0.75" PointY="22.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Расходные_Накладные" Width="1.5" PointX="3.75" PointY="18.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Склады" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Строки_Инвентаризации" Width="1.5" PointX="3" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Строки_Приходных_Накладных" Width="1.5" PointX="3" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Строки_Расходных_Накладных" Width="1.5" PointX="6" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Товары" Width="1.5" PointX="0.75" PointY="7.125" IsExpanded="true" />
+        <AssociationConnector Association="Model.FK_Инвентаризация_Пользователь" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Строки_Инвентаризации_Инвентаризация" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Расходные_Накладные_Клиенты" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Остатки_На_Складе_Склады" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Остатки_На_Складе_Товары" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Приходные_Накладные_Поставщики" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Строки_Приходных_Накладных_Приходные_Накладные" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Строки_Расходных_Накладных_Расходные_Накладные" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Строки_Инвентаризации_Товары" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Строки_Приходных_Накладных_Товары" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Строки_Расходных_Накладных_Товары" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

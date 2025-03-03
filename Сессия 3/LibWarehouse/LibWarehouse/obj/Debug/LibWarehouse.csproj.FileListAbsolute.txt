@@ -1,0 +1,13 @@
+C:\Users\Лада\Desktop\Мобилка\LibWarehouse\LibWarehouse\obj\Debug\LibWarehouse.csproj.AssemblyReference.cache
+C:\Users\Лада\Desktop\Мобилка\LibWarehouse\LibWarehouse\obj\Debug\LibWarehouse.csproj.CoreCompileInputs.cache
+C:\Users\Лада\Desktop\Мобилка\LibWarehouse\LibWarehouse\bin\Debug\LibWarehouse.dll.config
+C:\Users\Лада\Desktop\Мобилка\LibWarehouse\LibWarehouse\bin\Debug\LibWarehouse.dll
+C:\Users\Лада\Desktop\Мобилка\LibWarehouse\LibWarehouse\bin\Debug\LibWarehouse.pdb
+C:\Users\Лада\Desktop\Мобилка\LibWarehouse\LibWarehouse\bin\Debug\EntityFramework.dll
+C:\Users\Лада\Desktop\Мобилка\LibWarehouse\LibWarehouse\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Лада\Desktop\Мобилка\LibWarehouse\LibWarehouse\bin\Debug\EntityFramework.xml
+C:\Users\Лада\Desktop\Мобилка\LibWarehouse\LibWarehouse\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Лада\Desktop\Мобилка\LibWarehouse\LibWarehouse\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Лада\Desktop\Мобилка\LibWarehouse\LibWarehouse\obj\Debug\LibWareh.52E537C6.Up2Date
+C:\Users\Лада\Desktop\Мобилка\LibWarehouse\LibWarehouse\obj\Debug\LibWarehouse.dll
+C:\Users\Лада\Desktop\Мобилка\LibWarehouse\LibWarehouse\obj\Debug\LibWarehouse.pdb

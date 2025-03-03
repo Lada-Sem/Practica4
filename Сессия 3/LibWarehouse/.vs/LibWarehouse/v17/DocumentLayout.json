@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u041B\u0430\u0434\u0430\\Desktop\\\u041C\u043E\u0431\u0438\u043B\u043A\u0430\\LibWarehouse\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E7C4A429-55E7-4453-9669-EA779DD2F299}|LibWarehouse\\LibWarehouse.csproj|c:\\users\\\u043B\u0430\u0434\u0430\\desktop\\\u043C\u043E\u0431\u0438\u043B\u043A\u0430\\libwarehouse\\libwarehouse\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7C4A429-55E7-4453-9669-EA779DD2F299}|LibWarehouse\\LibWarehouse.csproj|solutionrelative:libwarehouse\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7C4A429-55E7-4453-9669-EA779DD2F299}|LibWarehouse\\LibWarehouse.csproj|c:\\users\\\u043B\u0430\u0434\u0430\\desktop\\\u043C\u043E\u0431\u0438\u043B\u043A\u0430\\libwarehouse\\libwarehouse\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{E7C4A429-55E7-4453-9669-EA779DD2F299}|LibWarehouse\\LibWarehouse.csproj|solutionrelative:libwarehouse\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7C4A429-55E7-4453-9669-EA779DD2F299}|LibWarehouse\\LibWarehouse.csproj|c:\\users\\\u043B\u0430\u0434\u0430\\desktop\\\u043C\u043E\u0431\u0438\u043B\u043A\u0430\\libwarehouse\\libwarehouse\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{E7C4A429-55E7-4453-9669-EA779DD2F299}|LibWarehouse\\LibWarehouse.csproj|solutionrelative:libwarehouse\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\\u041B\u0430\u0434\u0430\\Desktop\\\u041C\u043E\u0431\u0438\u043B\u043A\u0430\\LibWarehouse\\LibWarehouse\\Model1.edmx",
+              "RelativeDocumentMoniker": "LibWarehouse\\Model1.edmx",
+              "ToolTip": "C:\\Users\\\u041B\u0430\u0434\u0430\\Desktop\\\u041C\u043E\u0431\u0438\u043B\u043A\u0430\\LibWarehouse\\LibWarehouse\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "LibWarehouse\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-02-27T18:20:43.346Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.Config",
+              "DocumentMoniker": "C:\\Users\\\u041B\u0430\u0434\u0430\\Desktop\\\u041C\u043E\u0431\u0438\u043B\u043A\u0430\\LibWarehouse\\LibWarehouse\\App.Config",
+              "RelativeDocumentMoniker": "LibWarehouse\\App.Config",
+              "ToolTip": "C:\\Users\\\u041B\u0430\u0434\u0430\\Desktop\\\u041C\u043E\u0431\u0438\u043B\u043A\u0430\\LibWarehouse\\LibWarehouse\\App.Config",
+              "RelativeToolTip": "LibWarehouse\\App.Config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-02-27T18:08:44.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\\u041B\u0430\u0434\u0430\\Desktop\\\u041C\u043E\u0431\u0438\u043B\u043A\u0430\\LibWarehouse\\LibWarehouse\\Class1.cs",
+              "RelativeDocumentMoniker": "LibWarehouse\\Class1.cs",
+              "ToolTip": "C:\\Users\\\u041B\u0430\u0434\u0430\\Desktop\\\u041C\u043E\u0431\u0438\u043B\u043A\u0430\\LibWarehouse\\LibWarehouse\\Class1.cs",
+              "RelativeToolTip": "LibWarehouse\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T09:41:24.404Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
