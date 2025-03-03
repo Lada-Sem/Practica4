@@ -1,0 +1,279 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u041B\u0430\u0434\u0430\\source\\repos\\Practica4\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\WerehouseManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3501F5FF-6EA1-4EED-8678-59BCD2517DC4}|WerehouseManagement\\WerehouseManagement.csproj|c:\\users\\\u043B\u0430\u0434\u0430\\source\\repos\\practica4\\\u0441\u0435\u0441\u0441\u0438\u044F 2\\werehousemanagement\\werehousemanagement\\controllers\\\u0430\u043D\u0430\u043B\u0438\u0437\u0441\u043A\u043B\u0430\u0434\u0430controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3501F5FF-6EA1-4EED-8678-59BCD2517DC4}|WerehouseManagement\\WerehouseManagement.csproj|solutionrelative:werehousemanagement\\controllers\\\u0430\u043D\u0430\u043B\u0438\u0437\u0441\u043A\u043B\u0430\u0434\u0430controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3501F5FF-6EA1-4EED-8678-59BCD2517DC4}|WerehouseManagement\\WerehouseManagement.csproj|C:\\Users\\\u041B\u0430\u0434\u0430\\source\\repos\\Practica4\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\WerehouseManagement\\werehousemanagement\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3501F5FF-6EA1-4EED-8678-59BCD2517DC4}|WerehouseManagement\\WerehouseManagement.csproj|solutionrelative:werehousemanagement\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3501F5FF-6EA1-4EED-8678-59BCD2517DC4}|WerehouseManagement\\WerehouseManagement.csproj|C:\\Users\\\u041B\u0430\u0434\u0430\\source\\repos\\Practica4\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\WerehouseManagement\\werehousemanagement\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3501F5FF-6EA1-4EED-8678-59BCD2517DC4}|WerehouseManagement\\WerehouseManagement.csproj|solutionrelative:werehousemanagement\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3501F5FF-6EA1-4EED-8678-59BCD2517DC4}|WerehouseManagement\\WerehouseManagement.csproj|C:\\Users\\\u041B\u0430\u0434\u0430\\source\\repos\\Practica4\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\WerehouseManagement\\werehousemanagement\\controllers\\\u0441\u043A\u043B\u0430\u0434\u0430\u043D\u0430\u043B\u0438\u0437controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3501F5FF-6EA1-4EED-8678-59BCD2517DC4}|WerehouseManagement\\WerehouseManagement.csproj|solutionrelative:werehousemanagement\\controllers\\\u0441\u043A\u043B\u0430\u0434\u0430\u043D\u0430\u043B\u0438\u0437controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3501F5FF-6EA1-4EED-8678-59BCD2517DC4}|WerehouseManagement\\WerehouseManagement.csproj|C:\\Users\\\u041B\u0430\u0434\u0430\\source\\repos\\Practica4\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\WerehouseManagement\\werehousemanagement\\models\\\u0441\u043A\u043B\u0430\u0434\u0430\u043D\u0430\u043B\u0438\u0437\u0440\u0430\u0441\u0447\u0435\u0442.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3501F5FF-6EA1-4EED-8678-59BCD2517DC4}|WerehouseManagement\\WerehouseManagement.csproj|solutionrelative:werehousemanagement\\models\\\u0441\u043A\u043B\u0430\u0434\u0430\u043D\u0430\u043B\u0438\u0437\u0440\u0430\u0441\u0447\u0435\u0442.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3501F5FF-6EA1-4EED-8678-59BCD2517DC4}|WerehouseManagement\\WerehouseManagement.csproj|C:\\Users\\\u041B\u0430\u0434\u0430\\source\\repos\\Practica4\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\WerehouseManagement\\werehousemanagement\\controllers\\\u0442\u043E\u0432\u0430\u0440\u044Bcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3501F5FF-6EA1-4EED-8678-59BCD2517DC4}|WerehouseManagement\\WerehouseManagement.csproj|solutionrelative:werehousemanagement\\controllers\\\u0442\u043E\u0432\u0430\u0440\u044Bcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3501F5FF-6EA1-4EED-8678-59BCD2517DC4}|WerehouseManagement\\WerehouseManagement.csproj|C:\\Users\\\u041B\u0430\u0434\u0430\\source\\repos\\Practica4\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\WerehouseManagement\\werehousemanagement\\models\\\u0442\u043E\u0432\u0430\u0440.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3501F5FF-6EA1-4EED-8678-59BCD2517DC4}|WerehouseManagement\\WerehouseManagement.csproj|solutionrelative:werehousemanagement\\models\\\u0442\u043E\u0432\u0430\u0440.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3501F5FF-6EA1-4EED-8678-59BCD2517DC4}|WerehouseManagement\\WerehouseManagement.csproj|C:\\Users\\\u041B\u0430\u0434\u0430\\source\\repos\\Practica4\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\WerehouseManagement\\werehousemanagement\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3501F5FF-6EA1-4EED-8678-59BCD2517DC4}|WerehouseManagement\\WerehouseManagement.csproj|solutionrelative:werehousemanagement\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3501F5FF-6EA1-4EED-8678-59BCD2517DC4}|WerehouseManagement\\WerehouseManagement.csproj|C:\\Users\\\u041B\u0430\u0434\u0430\\source\\repos\\Practica4\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\WerehouseManagement\\werehousemanagement\\controllers\\\u0441\u043A\u043B\u0430\u0434\u044Bcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3501F5FF-6EA1-4EED-8678-59BCD2517DC4}|WerehouseManagement\\WerehouseManagement.csproj|solutionrelative:werehousemanagement\\controllers\\\u0441\u043A\u043B\u0430\u0434\u044Bcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3501F5FF-6EA1-4EED-8678-59BCD2517DC4}|WerehouseManagement\\WerehouseManagement.csproj|C:\\Users\\\u041B\u0430\u0434\u0430\\source\\repos\\Practica4\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\WerehouseManagement\\werehousemanagement\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{3501F5FF-6EA1-4EED-8678-59BCD2517DC4}|WerehouseManagement\\WerehouseManagement.csproj|solutionrelative:werehousemanagement\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3501F5FF-6EA1-4EED-8678-59BCD2517DC4}|WerehouseManagement\\WerehouseManagement.csproj|C:\\Users\\\u041B\u0430\u0434\u0430\\source\\repos\\Practica4\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\WerehouseManagement\\werehousemanagement\\models\\\u0441\u043A\u043B\u0430\u0434.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3501F5FF-6EA1-4EED-8678-59BCD2517DC4}|WerehouseManagement\\WerehouseManagement.csproj|solutionrelative:werehousemanagement\\models\\\u0441\u043A\u043B\u0430\u0434.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3501F5FF-6EA1-4EED-8678-59BCD2517DC4}|WerehouseManagement\\WerehouseManagement.csproj|C:\\Users\\\u041B\u0430\u0434\u0430\\source\\repos\\Practica4\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\WerehouseManagement\\werehousemanagement\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{3501F5FF-6EA1-4EED-8678-59BCD2517DC4}|WerehouseManagement\\WerehouseManagement.csproj|solutionrelative:werehousemanagement\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3501F5FF-6EA1-4EED-8678-59BCD2517DC4}|WerehouseManagement\\WerehouseManagement.csproj|C:\\Users\\\u041B\u0430\u0434\u0430\\source\\repos\\Practica4\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\WerehouseManagement\\werehousemanagement\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{3501F5FF-6EA1-4EED-8678-59BCD2517DC4}|WerehouseManagement\\WerehouseManagement.csproj|solutionrelative:werehousemanagement\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3501F5FF-6EA1-4EED-8678-59BCD2517DC4}|WerehouseManagement\\WerehouseManagement.csproj|C:\\Users\\\u041B\u0430\u0434\u0430\\source\\repos\\Practica4\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\WerehouseManagement\\werehousemanagement\\models\\\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3501F5FF-6EA1-4EED-8678-59BCD2517DC4}|WerehouseManagement\\WerehouseManagement.csproj|solutionrelative:werehousemanagement\\models\\\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3501F5FF-6EA1-4EED-8678-59BCD2517DC4}|WerehouseManagement\\WerehouseManagement.csproj|C:\\Users\\\u041B\u0430\u0434\u0430\\source\\repos\\Practica4\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\WerehouseManagement\\werehousemanagement\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3501F5FF-6EA1-4EED-8678-59BCD2517DC4}|WerehouseManagement\\WerehouseManagement.csproj|solutionrelative:werehousemanagement\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 50,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "\u0410\u043D\u0430\u043B\u0438\u0437\u0421\u043A\u043B\u0430\u0434\u0430Controller.cs",
+              "DocumentMoniker": "C:\\Users\\\u041B\u0430\u0434\u0430\\source\\repos\\Practica4\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\WerehouseManagement\\WerehouseManagement\\Controllers\\\u0410\u043D\u0430\u043B\u0438\u0437\u0421\u043A\u043B\u0430\u0434\u0430Controller.cs",
+              "RelativeDocumentMoniker": "WerehouseManagement\\Controllers\\\u0410\u043D\u0430\u043B\u0438\u0437\u0421\u043A\u043B\u0430\u0434\u0430Controller.cs",
+              "ToolTip": "C:\\Users\\\u041B\u0430\u0434\u0430\\source\\repos\\Practica4\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\WerehouseManagement\\WerehouseManagement\\Controllers\\\u0410\u043D\u0430\u043B\u0438\u0437\u0421\u043A\u043B\u0430\u0434\u0430Controller.cs",
+              "RelativeToolTip": "WerehouseManagement\\Controllers\\\u0410\u043D\u0430\u043B\u0438\u0437\u0421\u043A\u043B\u0430\u0434\u0430Controller.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAmwCMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T10:30:01.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "\u0421\u043A\u043B\u0430\u0434\u0410\u043D\u0430\u043B\u0438\u0437Controller.cs",
+              "DocumentMoniker": "C:\\Users\\\u041B\u0430\u0434\u0430\\source\\repos\\Practica4\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\WerehouseManagement\\WerehouseManagement\\Controllers\\\u0421\u043A\u043B\u0430\u0434\u0410\u043D\u0430\u043B\u0438\u0437Controller.cs",
+              "RelativeDocumentMoniker": "WerehouseManagement\\Controllers\\\u0421\u043A\u043B\u0430\u0434\u0410\u043D\u0430\u043B\u0438\u0437Controller.cs",
+              "ToolTip": "C:\\Users\\\u041B\u0430\u0434\u0430\\source\\repos\\Practica4\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\WerehouseManagement\\WerehouseManagement\\Controllers\\\u0421\u043A\u043B\u0430\u0434\u0410\u043D\u0430\u043B\u0438\u0437Controller.cs",
+              "RelativeToolTip": "WerehouseManagement\\Controllers\\\u0421\u043A\u043B\u0430\u0434\u0410\u043D\u0430\u043B\u0438\u0437Controller.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAUwA0AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T16:46:02.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "\u0422\u043E\u0432\u0430\u0440\u044BController.cs",
+              "DocumentMoniker": "C:\\Users\\\u041B\u0430\u0434\u0430\\source\\repos\\Practica4\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\WerehouseManagement\\WerehouseManagement\\Controllers\\\u0422\u043E\u0432\u0430\u0440\u044BController.cs",
+              "RelativeDocumentMoniker": "WerehouseManagement\\Controllers\\\u0422\u043E\u0432\u0430\u0440\u044BController.cs",
+              "ToolTip": "C:\\Users\\\u041B\u0430\u0434\u0430\\source\\repos\\Practica4\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\WerehouseManagement\\WerehouseManagement\\Controllers\\\u0422\u043E\u0432\u0430\u0440\u044BController.cs",
+              "RelativeToolTip": "WerehouseManagement\\Controllers\\\u0422\u043E\u0432\u0430\u0440\u044BController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB0AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T06:59:18.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\\u041B\u0430\u0434\u0430\\source\\repos\\Practica4\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\WerehouseManagement\\WerehouseManagement\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WerehouseManagement\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\\u041B\u0430\u0434\u0430\\source\\repos\\Practica4\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\WerehouseManagement\\WerehouseManagement\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WerehouseManagement\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAIAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T07:06:37.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\\u041B\u0430\u0434\u0430\\source\\repos\\Practica4\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\WerehouseManagement\\WerehouseManagement\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "WerehouseManagement\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\\u041B\u0430\u0434\u0430\\source\\repos\\Practica4\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\WerehouseManagement\\WerehouseManagement\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "WerehouseManagement\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T16:55:19.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "\u0422\u043E\u0432\u0430\u0440.cs",
+              "DocumentMoniker": "C:\\Users\\\u041B\u0430\u0434\u0430\\source\\repos\\Practica4\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\WerehouseManagement\\WerehouseManagement\\Models\\\u0422\u043E\u0432\u0430\u0440.cs",
+              "RelativeDocumentMoniker": "WerehouseManagement\\Models\\\u0422\u043E\u0432\u0430\u0440.cs",
+              "ToolTip": "C:\\Users\\\u041B\u0430\u0434\u0430\\source\\repos\\Practica4\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\WerehouseManagement\\WerehouseManagement\\Models\\\u0422\u043E\u0432\u0430\u0440.cs",
+              "RelativeToolTip": "WerehouseManagement\\Models\\\u0422\u043E\u0432\u0430\u0440.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T07:01:09.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "\u0421\u043A\u043B\u0430\u0434\u0410\u043D\u0430\u043B\u0438\u0437\u0420\u0430\u0441\u0447\u0435\u0442.cs",
+              "DocumentMoniker": "C:\\Users\\\u041B\u0430\u0434\u0430\\source\\repos\\Practica4\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\WerehouseManagement\\WerehouseManagement\\Models\\\u0421\u043A\u043B\u0430\u0434\u0410\u043D\u0430\u043B\u0438\u0437\u0420\u0430\u0441\u0447\u0435\u0442.cs",
+              "RelativeDocumentMoniker": "WerehouseManagement\\Models\\\u0421\u043A\u043B\u0430\u0434\u0410\u043D\u0430\u043B\u0438\u0437\u0420\u0430\u0441\u0447\u0435\u0442.cs",
+              "ToolTip": "C:\\Users\\\u041B\u0430\u0434\u0430\\source\\repos\\Practica4\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\WerehouseManagement\\WerehouseManagement\\Models\\\u0421\u043A\u043B\u0430\u0434\u0410\u043D\u0430\u043B\u0438\u0437\u0420\u0430\u0441\u0447\u0435\u0442.cs",
+              "RelativeToolTip": "WerehouseManagement\\Models\\\u0421\u043A\u043B\u0430\u0434\u0410\u043D\u0430\u043B\u0438\u0437\u0420\u0430\u0441\u0447\u0435\u0442.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAAAEQAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T17:46:40.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WebApiConfig.cs",
+              "DocumentMoniker": "C:\\Users\\\u041B\u0430\u0434\u0430\\source\\repos\\Practica4\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\WerehouseManagement\\WerehouseManagement\\App_Start\\WebApiConfig.cs",
+              "RelativeDocumentMoniker": "WerehouseManagement\\App_Start\\WebApiConfig.cs",
+              "ToolTip": "C:\\Users\\\u041B\u0430\u0434\u0430\\source\\repos\\Practica4\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\WerehouseManagement\\WerehouseManagement\\App_Start\\WebApiConfig.cs",
+              "RelativeToolTip": "WerehouseManagement\\App_Start\\WebApiConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T16:55:29.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "\u0421\u043A\u043B\u0430\u0434.cs",
+              "DocumentMoniker": "C:\\Users\\\u041B\u0430\u0434\u0430\\source\\repos\\Practica4\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\WerehouseManagement\\WerehouseManagement\\Models\\\u0421\u043A\u043B\u0430\u0434.cs",
+              "RelativeDocumentMoniker": "WerehouseManagement\\Models\\\u0421\u043A\u043B\u0430\u0434.cs",
+              "ToolTip": "C:\\Users\\\u041B\u0430\u0434\u0430\\source\\repos\\Practica4\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\WerehouseManagement\\WerehouseManagement\\Models\\\u0421\u043A\u043B\u0430\u0434.cs",
+              "RelativeToolTip": "WerehouseManagement\\Models\\\u0421\u043A\u043B\u0430\u0434.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T07:02:14.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\\u041B\u0430\u0434\u0430\\source\\repos\\Practica4\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\WerehouseManagement\\WerehouseManagement\\Model1.edmx",
+              "RelativeDocumentMoniker": "WerehouseManagement\\Model1.edmx",
+              "ToolTip": "C:\\Users\\\u041B\u0430\u0434\u0430\\Desktop\\\u041C\u043E\u0431\u0438\u043B\u043A\u0430\\WerehouseManagement\\WerehouseManagement\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Desktop\\\u041C\u043E\u0431\u0438\u043B\u043A\u0430\\WerehouseManagement\\WerehouseManagement\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-02-27T06:52:01.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "\u0421\u043A\u043B\u0430\u0434\u044BController.cs",
+              "DocumentMoniker": "C:\\Users\\\u041B\u0430\u0434\u0430\\source\\repos\\Practica4\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\WerehouseManagement\\WerehouseManagement\\Controllers\\\u0421\u043A\u043B\u0430\u0434\u044BController.cs",
+              "RelativeDocumentMoniker": "WerehouseManagement\\Controllers\\\u0421\u043A\u043B\u0430\u0434\u044BController.cs",
+              "ToolTip": "C:\\Users\\\u041B\u0430\u0434\u0430\\source\\repos\\Practica4\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\WerehouseManagement\\WerehouseManagement\\Controllers\\\u0421\u043A\u043B\u0430\u0434\u044BController.cs",
+              "RelativeToolTip": "WerehouseManagement\\Controllers\\\u0421\u043A\u043B\u0430\u0434\u044BController.cs",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAiwJIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T07:00:31.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\\u041B\u0430\u0434\u0430\\source\\repos\\Practica4\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\WerehouseManagement\\WerehouseManagement\\Views\\Web.config",
+              "RelativeDocumentMoniker": "WerehouseManagement\\Views\\Web.config",
+              "ToolTip": "C:\\Users\\\u041B\u0430\u0434\u0430\\source\\repos\\Practica4\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\WerehouseManagement\\WerehouseManagement\\Views\\Web.config",
+              "RelativeToolTip": "WerehouseManagement\\Views\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-02-27T07:10:18.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\\u041B\u0430\u0434\u0430\\source\\repos\\Practica4\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\WerehouseManagement\\WerehouseManagement\\Web.config",
+              "RelativeDocumentMoniker": "WerehouseManagement\\Web.config",
+              "ToolTip": "C:\\Users\\\u041B\u0430\u0434\u0430\\source\\repos\\Practica4\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\WerehouseManagement\\WerehouseManagement\\Web.config",
+              "RelativeToolTip": "WerehouseManagement\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-02-27T07:15:12.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438.cs",
+              "DocumentMoniker": "C:\\Users\\\u041B\u0430\u0434\u0430\\source\\repos\\Practica4\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\WerehouseManagement\\WerehouseManagement\\Models\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438.cs",
+              "RelativeDocumentMoniker": "WerehouseManagement\\Models\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438.cs",
+              "ToolTip": "C:\\Users\\\u041B\u0430\u0434\u0430\\source\\repos\\Practica4\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\WerehouseManagement\\WerehouseManagement\\Models\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438.cs",
+              "RelativeToolTip": "WerehouseManagement\\Models\\\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u0438.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T07:02:50.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RegisterController.cs",
+              "DocumentMoniker": "C:\\Users\\\u041B\u0430\u0434\u0430\\source\\repos\\Practica4\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\WerehouseManagement\\WerehouseManagement\\Controllers\\RegisterController.cs",
+              "RelativeDocumentMoniker": "WerehouseManagement\\Controllers\\RegisterController.cs",
+              "ToolTip": "C:\\Users\\\u041B\u0430\u0434\u0430\\source\\repos\\Practica4\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\WerehouseManagement\\WerehouseManagement\\Controllers\\RegisterController.cs",
+              "RelativeToolTip": "WerehouseManagement\\Controllers\\RegisterController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T06:55:50.861Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1078,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
